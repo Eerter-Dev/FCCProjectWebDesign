@@ -58,3 +58,12 @@
     margin: 0;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .box {
+        height: 100px; /* Dynamiczna wysokość na mniejszych ekranach */
+    }
+    p {
+        padding: 0px 30px;
+    }
+}
